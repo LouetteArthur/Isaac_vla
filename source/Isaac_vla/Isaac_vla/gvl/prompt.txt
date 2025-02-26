@@ -1,0 +1,14 @@
+You are an expert roboticist tasked to predict task completion
+percentages for frames of a robot for the task of {task_description}.
+The task completion percentages are between 0 and 100, where 100
+corresponds to full task completion. We provide several examples of
+the robot performing the task at various stages and their
+corresponding task completion percentages. Note that these frames are
+in random order, so please pay attention to the individual frames
+when reasoning about task completion percentage.
+Initial robot scene: [{initial_image}]
+In the initial robot scene, the task completion percentage is 0.
+Now, for the task of {task_description}, output the task completion
+percentage for the following frames that are presented in random
+order. For each frame, format your response as follow: Frame i:
+Frame Description: DESCRIPTION, Task Completion Percentages: PERCENTAGE%
